@@ -1,0 +1,44 @@
+.ow-screen-padding {
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.ow-leave-page-fab {
+    width: 71px;
+    height: 71px;
+    border-radius: 4px;
+    background-color: #4d708c;
+    text-align: center;
+    padding: 4px 6px 0px 6px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.14);
+    opacity: 1;
+    cursor: pointer;
+    z-index: 9999;
+}
+.ow-leave-page-fab:hover {
+    opacity: 0.9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.24);
+}
+.ow-leave-page-fab h3 {
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    color: white;
+    opacity: 1;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+}
+.ow-leave-page-fab .ow-fab-icon {
+    width: 28px;
+    height: 28px;
+    opacity: 1;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAADzCAYAAABT9iA/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0MDc4MDVGOTkwNEQxMUU5QTQ2MkYxRTM1NUU2NTRFOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0MDc4MDVGQTkwNEQxMUU5QTQ2MkYxRTM1NUU2NTRFOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQwNzgwNUY3OTA0RDExRTlBNDYyRjFFMzU1RTY1NEU5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQwNzgwNUY4OTA0RDExRTlBNDYyRjFFMzU1RTY1NEU5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+yQSe+gAABXhJREFUeNrs3c9rHGUYwPGdGlrpxYumYNtY0IPgQY1BsOBBPFikVAUFTwp68OS/4L9QchY9efBmlYIWmpMUoait4MFrf3jx0Ks2rR2fN7ux253ZzabZ3Xln8vnA00mTbZJO+OadnWxmi7Ise0D7HbALQMyAmAExA2IGMQNiBsQMiBnEDIgZEDMgZkDMIGZAzICYATGDmAExA2IGxAxiBsQMiBkQMyBmEDMgZkDMgJhBzICYATEDYgYxA2IGxAyIGRAziBkQMyBmQMwgZkDMgJgBMQNiBjEDYgbEDIgZxAyIGRAzIGYQMyBmQMyAmAExg5gBMQNiBsQMYgbEDIgZEDOIGRAzIGZAzICYQcyAmAExA2IGMQNiBsQM7NFS+qMoCnsCapRluRqb0zEnYm7FXIzZiGbuZPQ5jrwADAdyKOZszGZZdT5mOaeYtzoWM9QGsj4U772RSS7lErSYYXwcazG3x4Q8GvSRXGJ2AgyqTsUcTJ1MaijmZMx3EdLRHD5pMUPV8WkXxZiXY87lELSYoWppN0e5MWs5BC1mqA+017agxQyz+wbQaNBihvkEfUzMYIUWM2QU9EuLDlrMMN8V+ttFHXKLGRazQh8TMwhazLCfghYzdCRoMUNHghYzNBN0Ost9XMzQ/qBXZx20mKG5oF+cZdBiho4ELWboSNBihnyCTpcgWhEztD/oFwYr9IqYYR8HLWaoj6p1QU914bJ4p+n5a56MeSbmiZhHfL3pqM2YpzNaod8qiuL6NP+oSBfPHvdcU/G2w7F5N+bDXv9RK4/5WmNlXpgU5tWYiUFvP5HF2Jjj9a/GZr3XP8uW238S9ovtoN+OTq9NivnAmDd+HJsLg5DLoQGaO+R+aleH2fH392Pz1eB+sYAhnxX6t8Eh97UdD7Pj5Wdj82PM40KGdgQ97jD7MyFD1ofcz4875P5/ZY7tc/H3yzGHxQytWKHPpLPcdSvzm0KGVq3QX0bIB7dfORzzK/YRtCro12PeeSDmwSO8VuwfaJ1Toytzeljno/YLtM7yaMx3Y/6xX6B1/nog5qIo0vH3dfsFWueH0ZU5+cl+gdZI57k2Yr6pi/n7mL8HNwLyDjn9nPmjOKrerMQcr/w9NufsJ2hFyJVfi/TYbGhnyJMfmx03+CM2n8b863Ab8g95WOX3meOGX8fmE/efoT0h18Y8CPqL2LwRc2XwjgphQ2MhX90p5Mp95lGDa4C9F/NBzzXA2D+6dQ2wkRunGxzt9a9a6OqcdFn6UU86b/Raw1FPFfJwzPdfALab+Lzsu9fQJFemvW52ajiNi+BD/aqY/Yo8SsyQ1zeRhwpZzNCRkMUM+YScfgx85mFDFjPkE3JakW/s5R2JGToQspihIyGLGZoL+ddZhixmaCbkX2YdspihmZDT07PenPU7FzN0IGQxQ0dCFjN0JGQxQ0dCFjPMN+Sfe/2z1jcX8QHFDPNdkf9c1AcVM8xnRV5oyMmSfQ/tD9nKDB0JWcwwPsxWhSxmqHe3bSGLGerd2EXIl3MIeYtL7UKlibWY2ztcbje5FHMkh4a3OhYz1AayXt43LuTlTD5XMcOEQA7FnI3ZLKvO5xLycMxTPT0N7OOoV2NzOuZEzK2YjZiL0cydnGLeugNvZYZucDYbxAyIGRAzIGYQMyBmQMyAmEHMgJgBMQNiBsQMYgbEDIgZEDOIGRAzIGZAzCBmQMyAmAExA2IGMQNiBsQMiBnEDIgZEDMgZhCzXQBiBsQMiBkQM4gZEDMgZkDMIGZAzICYATEDYgYxA2IGxAyIGcQMiBkQMyBmEDMgZkDMgJgBMYOYATEDYgbEDGIGxAyIGRAziBkQMyBmQMyAmEHMgJgBMQNiBjEDYgbEDOzVfwIMAO/PI3RvaiVcAAAAAElFTkSuQmCC);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+.ow-leave-page-fab.script-enabled {
+    display: none;
+}

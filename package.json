@@ -1,0 +1,49 @@
+{
+	"name": "escape-button-wordpress",
+	"version": "1.0.0",
+	"description": "Open source widget to help users quickly and discretely leave your website",
+	"scripts": {
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/our-wave/escape-button-wordpress"
+	},
+	"keywords": [
+		"escape",
+		"violence",
+		"widget"
+	],
+	"license": "MIT",
+	"private": false,
+	"author": {
+		"name": "Our Wave",
+		"email": "hello@ourwave.org",
+		"url": "https://www.ourwave.org"
+	},
+	"maintainers": [
+		{
+			"name": "Our Wave",
+			"email": "hello@ourwave.org",
+			"url": "https://www.ourwave.org"
+		}
+	],
+	"dependencies": {
+		"browserify": "^17.0.0",
+		"core-js": "^3.6.5",
+		"regenerator-runtime": "^0.13.7",
+		"util": "^0.12.4"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.4.0",
+		"@babel/preset-env": "^7.9.0",
+		"babel-loader": "^8.1.0",
+		"copy-webpack-plugin": "^10.2.0",
+		"dotenv": "^8.2.0",
+		"webpack": "^5.3.0",
+		"webpack-cli": "^4.1.0"
+	},
+	"engines": {
+		"node": ">=10.0"
+	}
+}
