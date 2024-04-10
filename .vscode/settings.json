@@ -1,3 +1,101 @@
 {
 	"editor.formatOnSave": true,
+	"[json]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"psi-header.config": {
+		"forceToTop": true,
+		"blankLinesAfter": 1,
+		"license": "MIT",
+		"company": "Our Wave, Inc",
+		"copyrightHolder": "Our Wave, Inc",
+		"creationDateZero": "now"
+	},
+	"psi-header.changes-tracking": {
+		"isActive": true,
+		"modAuthor": "Modified By:",
+		"modDate": "Last Modified:",
+		"include": [
+			/* Language IDs: https://code.visualstudio.com/docs/languages/identifiers */
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"typescriptreact"
+		],
+		"includeGlob": [],
+		"exclude": [],
+		"excludeGlob": [
+			"**/build/**"
+		],
+		"autoHeader": "autoSave",
+		"enforceHeader": true,
+		"replace": [
+			"File",
+			"Project"
+		],
+		"updateLicenseVariables": false
+	},
+	"psi-header.variables": [],
+	"psi-header.lang-config": [
+		{
+			"language": "plaintext",
+			"begin": "#",
+			"prefix": "# ",
+			"lineLength": 80,
+			"end": "#",
+			"forceToTop": true,
+			"blankLinesAfter": 1,
+			"beforeHeader": [],
+			"afterHeader": [],
+			"rootDirFileName": "package.json",
+			"ignoreLines": []
+		},
+		{
+			"language": "javascript",
+			"begin": "/*",
+			"prefix": " * ",
+			"lineLength": 80,
+			"end": " */",
+			"forceToTop": true,
+			"blankLinesAfter": 1,
+			"beforeHeader": [],
+			"afterHeader": [],
+			"rootDirFileName": "package.json",
+			"ignoreLines": []
+		},
+		{
+			"language": "typescript",
+			"mapTo": "javascript"
+		},
+		{
+			"language": "ignore",
+			"mapTo": "plaintext"
+		}
+	],
+	"psi-header.templates": [
+		{
+			"language": "*",
+			"template": [
+				"File: <<filename>>",
+				"Project: <<projectname>>",
+				"",
+				"Created by <<author>> on <<filecreated('MMMM D, YYYY [at] h:mm A')>>",
+				"Copyright © <<yeartoyear(fc, now)>> <<company>>. All rights reserved.",
+				"",
+				"Last Modified: <<dateformat('MMMM D, YYYY [at] h:mm A')>>",
+				"Modified By: <<author>>"
+			],
+			"changeLogNaturalOrder": false,
+			"changeLogFooterLineCount": 0
+		},
+		{
+			"language": "typescript",
+			"mapTo": "javascript"
+		}
+	]
 }
