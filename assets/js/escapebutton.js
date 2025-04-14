@@ -23,7 +23,7 @@ const newTabUrl =
 const replaceTabUrl =
 	config.replaceTabUrl != null
 		? config.replaceTabUrl
-		: "https://www.allrecipes.com/?page=2";
+		: "https://www.amazon.com/b/?_encoding=UTF8&node=1063278&ref_=cct_cg_Explore_1a1&pf_rd_p=a55f207c-6283-46d9-aeb3-4967ef77df9c&pf_rd_r=AGN3GQJSGC6CBVN6TW83";
 
 // Define leave handler
 const handleLeavePage = () => {
