@@ -27,3 +27,5 @@ temporary/*
 */temporary/*
 !temporary/.gitkeep
 !*/temporary/.gitkeep
+!temporary/keep.txt
+!*/temporary/keep.txt
